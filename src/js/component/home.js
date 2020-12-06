@@ -17,13 +17,19 @@ export function Home() {
 				a lot of attention and needs to be trained and disipline, is a
 				very friendly dog and very active, and above all it is very
 				friendly dog and a good pet.
+				<p2>for more information click here. </p2>
+				<a
+					className="a"
+					href="https://en.wikipedia.org/wiki/Rat_Terrier">
+					more info
+				</a>
 			</p>
 			<img
 				className="image"
 				src="https://www.thesprucepets.com/thmb/7tmbGB0_PE4bxyrln3TlMFVGBC8=/2114x1189/smart/filters:no_upscale()/GettyImages-681825056-3022f936de744885879af2016b27680c.jpg"
 			/>
 			<div>
-				<button>more information</button>
+				<button className="boton">more information</button>
 			</div>
 		</div>
 	);
